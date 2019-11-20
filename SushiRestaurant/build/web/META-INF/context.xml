@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/SushiRestaurant">
+  <!-- Database/JDBC information -->
+  <Environment name="dbname" value="SushiRestaurant" type="java.lang.String"/>
+  <Environment name="server" type="java.lang.String" value="DESKTOP-5GL5QMJ"/>
+  <Environment name="port" type="java.lang.String" value="1433"/>
+  <Environment name="user" type="java.lang.String" value="sa"/>
+  <Environment name="password" type="java.lang.String" value="123456"/>
+  <!-- Images directory path-->
+  <Environment name="imgDir" value="static/images/" type="java.lang.String"/>
+</Context>

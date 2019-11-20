@@ -1,0 +1,190 @@
+/*@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans:500|Quattrocento+Sans:400,400italic&subset=latin,latin-ext);*/
+
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: /*'Alegreya Sans',*/ sans-serif;
+    background-color: #d5f46b;
+    background-image: url('../images/wine.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+div, p, a, span {
+    margin: 0;
+    padding: 0;
+}
+
+.main-wrapper {
+    display: inline-block;
+    width: 980px;
+    text-align: initial;
+    background-color: white;
+    box-shadow: 0 0 25px black;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    overflow: hidden;
+}
+
+.header {
+    background-color: #535353;
+    height: 145px;
+    overflow: hidden;
+    padding-left: 14px;
+}
+
+.big-title {
+    font-size: 40px;
+    color: #d5f46b;
+    margin: 28px 0 10px 0;
+}
+
+.sub-title {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.menu {
+    background-color: #303030;
+    list-style: none;
+    height: 35px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+}
+
+.sub-menu {
+    padding: 8px 15px 0px 15px;
+}
+
+.menu-link {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.menu-link:hover {
+    text-decoration: underline;
+}
+
+.main-body {
+    overflow: hidden;
+    padding: 28px 14px;
+    display: flex;
+}
+
+.left {
+    width: 750px;
+}
+
+.right{
+    width: 250px;
+}
+
+.img-cover {
+    content: url('../images/pic1.jpg');
+    width: 100%;
+    border-radius: 15px;
+}
+
+.product-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.product-img {
+    float: left;
+    width: 350px;
+    border-radius: 15px;
+    margin: 4px 15px 0 0;
+}
+
+.product-img-detail {
+    float: left;
+    width: 200px;/*280px*/
+    border-radius: 15px;
+    margin: 4px 15px 0 0;
+}
+
+.product-content {
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+.sidebar {
+    box-shadow: 0 0 15px rgba(0,0,0,.2);
+    padding: 14px;
+    margin: 0 15px 15px 0;
+    border-radius: 15px;
+}
+
+.share {
+    text-decoration: underline;
+    padding-bottom: 7px;
+    line-height: 25px;
+}
+
+.share .facebook::before{
+    content: url("../images/facebook.png");
+    padding: 0.5rem;
+}
+.share .twitter::before{
+    content: url("../images/twitter.png");
+    padding: 0.5rem;
+}
+.share .google::before{
+    content: url("../images/google.png");
+    padding: 0.5rem;
+}
+
+.footer {
+    border-top: #ccc 1px solid;
+    padding: 20px;
+}
+
+.end-text {
+    color: #535353;
+    text-decoration: underline;
+}
+
+.dot-b {
+    border-bottom: 3px dotted #ccc;
+}
+
+.menu-head {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    font-size: 20px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.info-table {
+    border-collapse: separate;
+    border-spacing: 0 14px;
+    width: 600px;
+}
+
+th {
+    font-size: 1.5rem;
+}
+
+.map-img {
+    width: 100%;
+    margin-top: 14px;
+    padding-top: 28px;
+    border-top: 3px #ccc dotted;
+}
+
+.next-pre-icon {
+    margin: 7px 7px 7px 7px;
+    font-weight: bold;
+}
